@@ -14471,7 +14471,7 @@ yahoo_weather__WEBPACK_IMPORTED_MODULE_3___default()();
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! H:\На работу\frontend-template\src\js\vendor.js */"./src/js/vendor.js");
+module.exports = __webpack_require__(/*! H:\На работу\testWork\TechnicalRequirements\src\js\vendor.js */"./src/js/vendor.js");
 
 
 /***/ })

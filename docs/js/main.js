@@ -347,7 +347,7 @@ function scanImages() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! H:\На работу\frontend-template\src\js\main.js */"./src/js/main.js");
+module.exports = __webpack_require__(/*! H:\На работу\testWork\TechnicalRequirements\src\js\main.js */"./src/js/main.js");
 
 
 /***/ })

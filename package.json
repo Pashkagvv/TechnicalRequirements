@@ -12,12 +12,14 @@
   },
   "repository": {
     "type": "git",
-
+    "url": "git+https://github.com/aglotoff/frontend-template.git"
   },
   "author": "Andrey Glotov",
   "license": "MIT",
   "bugs": {
+    "url": "https://github.com/aglotoff/frontend-template/issues"
   },
+  "homepage": "https://github.com/aglotoff/frontend-template#readme",
   "devDependencies": {
     "@babel/core": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
@@ -64,8 +66,6 @@
   },
   "dependencies": {
     "jquery": "^3.4.0",
-    "slick-carousel": "^1.8.1",
-    "svg4everybody": "^2.1.9",
-    "yahoo-weather": "^2.2.2"
+    "svg4everybody": "^2.1.9"
   }
 }
