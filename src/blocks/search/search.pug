@@ -1,0 +1,17 @@
+//-
+    name: search
+    description: Markup for the search block
+    arguments:
+        - {object} props - block properties
+
+mixin search(props = {})
+    .search&attributes(attributes)
+        a.search__link(href="#") <i class="fas fa-home"></i>
+            a.search__link(href="#") About
+            a.search__link(href="#") Services
+            a.search__link(href="#") Portfolio
+            a.search__link(href="#") Blog
+            a.search__link(href="#") Contact
+            form.search__form
+                input.search__input(type="search" placeholder="search" method="post")
+                button.search__submit(type="submit" ) <i class="fas fa-search"></i>

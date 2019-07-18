@@ -1,0 +1,38 @@
+/**
+ * Styles for the actorinfo block.
+ */
+.actorinfo {
+    // Selector styles
+    // TODO: add code
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+    // @media queries
+    // TODO: add code
+
+    // Pseudo-classes and pseudo-elements
+    // TODO: add code
+
+    // Nested selectors
+    // TODO: add code
+
+    // BEM elements
+    // TODO: add code
+&__img{
+  border: 2px solid $color-laz;
+  border-radius: 100%;
+  padding: 4px;
+}
+
+  &__link{
+    background: $color-laz;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: $color-white;
+  }
+    // Bem modifiers
+    // TODO: add code
+}

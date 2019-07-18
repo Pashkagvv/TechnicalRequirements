@@ -1,0 +1,33 @@
+//-
+    name: header
+    description: Markup for the header block
+    arguments:
+        - {object} props - block properties
+
+mixin header(data = {})
+    .header&attributes(attributes)
+
+            .row
+                .col-8
+                    .header__slick
+                        .header__slickItem
+                            img.header__slickImg(src= data.firstSlide)
+                        .header__slickItem
+                            img.header__slickImg(src= data.secondSlide)
+
+                    .header__Arrows
+                        .header__prevArrow
+                            <i class="fas fa-chevron-left"></i>
+                        .header__nextArrow
+                            <i class="fas fa-chevron-right"></i>
+                .col-4
+                    .header__social
+                        a.header__link(href="#")
+                            img.header__socialImg(src= data.twitter)
+                        a.header__link(href="#")
+                            img.header__socialImg(src= data.dribble)
+                        a.header__link(href="#")
+                            img.header__socialImg(src= data.google)
+                        a.header__link(href="#")
+                            img.header__socialImg(src= data.facebook)
+

@@ -1,0 +1,36 @@
+/**
+ * Styles for the header block.
+ */
+.header {
+    // Selector styles
+    // TODO: add code
+
+    // @media queries
+    // TODO: add code
+
+    // Pseudo-classes and pseudo-elements
+    // TODO: add code
+
+    // Nested selectors
+    // TODO: add code
+
+    // BEM elements
+    // TODO: add code
+
+  &__slick{
+    width: 100%;
+    height: 300px;
+  }
+
+&__social{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+  &__socialImg{
+    max-width: 100px;
+    margin: 10px;
+  }
+    // Bem modifiers
+    // TODO: add code
+}

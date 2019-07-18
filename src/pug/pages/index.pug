@@ -1,0 +1,32 @@
+extends ../layouts/base.pug
+
+include ../../blocks/header/header.pug
+include ../../blocks/search/search.pug
+    include ../../blocks/actorinfo/actorinfo.pug
+    include ../../blocks/weather/weather.pug
+    include ../../blocks/calendar/calendar.pug
+
+
+
+
+//- TODO: include page-specific block templates
+
+block page
+    //- TODO: add code
+    .container
+        .row
+            .col-lg-10
+                +header(data.header)
+                +search
+            .col-lg-2
+        .row
+            .col-lg-3
+                +actorinfo(data.actorinfo)
+            .col-lg-4
+                +weather()
+            .col-lg-3
+            .col-lg-2
+                +calendar()
+
+
+

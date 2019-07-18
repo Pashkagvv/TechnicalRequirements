@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Site Title &#8211; Site Tagline</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+    <link rel="stylesheet" type="text/css" href="https://www.gismeteo.ua/assets/flat-ui/legacy/css/informer.min.css" />
+</head>
+
+<body class="page">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10">
+                <div class="header">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="header__slick">
+                                <div class="header__slickItem">
+                                    <img class="header__slickImg" src="./img/images.jpg" />
+                                </div>
+                                <div class="header__slickItem">
+                                    <img class="header__slickImg" src="./img/IronMan.jpg" />
+                                </div>
+                            </div>
+                            <div class="header__Arrows">
+                                <div class="header__prevArrow"><i class="fas fa-chevron-left"></i></div>
+                                <div class="header__nextArrow"><i class="fas fa-chevron-right"></i></div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="header__social">
+                                <a class="header__link" href="#">
+                                    <img class="header__socialImg" src="./img/twitter.png" />
+                                </a>
+                                <a class="header__link" href="#">
+                                    <img class="header__socialImg" src="./img/dribbble.png" />
+                                </a>
+                                <a class="header__link" href="#">
+                                    <img class="header__socialImg" src="./img/Google-Plus.png" />
+                                </a>
+                                <a class="header__link" href="#">
+                                    <img class="header__socialImg" src="./img/facebook.png" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="search">
+                    <a class="search__link" href="#"><i class="fas fa-home"></i>
+                        <a class="search__link" href="#">About</a>
+                        <a class="search__link" href="#">Services</a>
+                        <a class="search__link" href="#">Portfolio</a>
+                        <a class="search__link" href="#">Blog</a>
+                        <a class="search__link" href="#">Contact</a>
+                        <form class="search__form">
+                            <input class="search__input" type="search" placeholder="search" method="post" />
+                            <button class="search__submit" type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="actorinfo">
+                    <img class="actorinfo__img" src="./img/scarlet.jpg" />
+                    <div class="actorinfo__name">Scarlet Johansson</div>
+                    <div class="actorinfo__character">Black Widow</div>
+                    <div class="actorinfo__link">Follow</div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="weather">
+                    <div class="gsInformer" id="gsInformerID-25yEMTr07OLJ45" style="width:325px;height:140px">
+                        <div class="gsIContent">
+                            <div id="cityLink">
+                                <A href="https://www.gismeteo.ua/weather-new-york-7190/" target="_blank" title="Погода в Нью-Йорке">
+                                    <img src="https://www.gismeteo.ua/assets/flat-ui/img/gisloader.svg" width="24" height="24" alt="Погода в Нью-Йорке" />
+                                </A>
+                            </div>
+                            <div class="gsLinks">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <div class="leftCol">
+                                                <A href="https://www.gismeteo.ua/" target="_blank" title="Погода в Нью-Йорке">
+                                                    <Img alt="Погода в Нью-Йорке" src="https://www.gismeteo.ua/assets/flat-ui/img/logo-mini2.png" align="middle" border="0" width="11" height="16">
+                                                    </Img>
+                                                    <Img src="https://www.gismeteo.ua/assets/flat-ui/img/informer/gismeteo.svg" border="0" align="middle" style="left: 5px; top:1px">
+                                                    </Img>
+                                                </A>
+                                                <div class="rightCol">
+                                                    <A href="https://www.gismeteo.ua/weather-new-york-7190/2-weeks/" target="_blank" title="Погода в Нью-Йорке на 2 недели">
+                                                        <Img src="https://www.gismeteo.ua/assets/flat-ui/img/informer/forecast-2weeks.ru.svg" border="0" align="middle" style="top:auto" alt="Погода в Нью-Йорке на 2 недели">
+                                                        </Img>
+                                                    </A>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-2">
+                <div class="calendar"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/vendor.js"></script>
+    <script src="js/main.js"></script>
+    <script async="async" src="https://www.gismeteo.ua/api/informer/getinformer/?hash=25yEMTr07OLJ45"></script>
+</body>
+
+</html>

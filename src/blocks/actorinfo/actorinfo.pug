@@ -1,0 +1,13 @@
+//-
+    name: actorinfo
+    description: Markup for the actorinfo block
+    arguments:
+        - {object} props - block properties
+
+mixin actorinfo(data = {})
+    .actorinfo&attributes(attributes)
+        each item in data
+            img.actorinfo__img(src= item.img)
+            .actorinfo__name= item.name
+            .actorinfo__character= item.character
+            .actorinfo__link= item.link

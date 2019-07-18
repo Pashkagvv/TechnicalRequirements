@@ -1,0 +1,21 @@
+{
+    "siteTitle": "Site Title",
+    "siteTagline": "Site Tagline",
+    "header": {
+        "firstSlide": "./img/images.jpg",
+        "secondSlide": "./img/IronMan.jpg",
+        "facebook": "./img/facebook.png",
+        "dribble": "./img/dribbble.png",
+        "twitter": "./img/twitter.png",
+        "google": "./img/Google-Plus.png"
+    },
+    "actorinfo": [
+        {
+            "img": "./img/scarlet.jpg",
+            "name": "Scarlet Johansson",
+            "character": "Black Widow",
+            "link": "Follow"
+        }
+    ]
+
+}
